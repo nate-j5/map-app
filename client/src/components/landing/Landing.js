@@ -1,6 +1,6 @@
 import React from "react";
 import "./Landing.css"; // Importing CSS for styling
-import backgroundVideo from '../../assets/background.mp4'; // Import your video file
+import backgroundVideo from "../../assets/background.mp4"; // Import your video file
 
 const Landing = () => {
   return (
@@ -15,7 +15,8 @@ const Landing = () => {
         <button className="cta-button">Get Started</button>
       </header>
 
-      <section className="features-section">
+      {/* TESTING SIMPLER DESIGN */}
+      {/* <section className="features-section">
         <div className="feature">
           <h2>Innovative Design</h2>
           <p>
@@ -33,7 +34,7 @@ const Landing = () => {
           <h2>24/7 Support</h2>
           <p>Our team is here to help you every step of the way.</p>
         </div>
-      </section>
+      </section> */}
 
       <footer className="landing-footer">
         <p>&copy; 2024 Your Company. All rights reserved.</p>
