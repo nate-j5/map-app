@@ -1,0 +1,23 @@
+[
+    { "id": 1, "name": "Agriculture" },
+    { "id": 2, "name": "Banking" },
+    { "id": 3, "name": "Construction" },
+    { "id": 4, "name": "Consumer Goods" },
+    { "id": 5, "name": "Education" },
+    { "id": 6, "name": "Energy" },
+    { "id": 7, "name": "Entertainment" },
+    { "id": 8, "name": "Financial Services" },
+    { "id": 9, "name": "Food & Beverage" },
+    { "id": 10, "name": "Healthcare" },
+    { "id": 11, "name": "Hospitality" },
+    { "id": 12, "name": "Insurance" },
+    { "id": 13, "name": "Legal" },
+    { "id": 14, "name": "Manufacturing" },
+    { "id": 15, "name": "Media & Publishing" },
+    { "id": 16, "name": "Nonprofit" },
+    { "id": 17, "name": "Pharmaceuticals" },
+    { "id": 18, "name": "Real Estate" },
+    { "id": 19, "name": "Retail" },
+    { "id": 20, "name": "Software" },
+    { "id": 21, "name": "Transportation & Logistics" }
+    ]

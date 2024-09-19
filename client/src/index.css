@@ -1,0 +1,40 @@
+/* Reset default margin and padding */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Ensure the nav bar sticks to the top without margins */
+nav {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;  /* Ensure the Nav stays on top */
+}
+
+/* Ensure the Map component fills the remaining space */
+.map-container {
+  position: absolute;
+  top: 50px; /* Adjust according to the height of your Nav */
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

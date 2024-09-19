@@ -1,0 +1,70 @@
+.custom-popup {
+  background-color: #2b2a33 !important;
+  border-radius: 10px !important; /* Rounded corners */
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  color: #fff !important; /* Light text color */
+  font-family: Arial, sans-serif;
+  width: 500px;
+}
+
+.custom-popup .mapboxgl-popup-content {
+  padding: 16px; /* Add padding inside the popup content */
+  font-size: 14px; /* Adjust font size */
+  background-color: #2b2a33;
+}
+
+.custom-popup .popup-content h4 {
+  margin: 0.2em;
+  font-size: 1rem;
+  font-weight: 300;
+  color: goldenrod; /* Title in blue */
+}
+.custom-popup .popup-content img {
+  margin-top: 10px;
+  border-radius: 5px; /* Rounded image corners */
+}
+
+.custom-popup .mapboxgl-popup-close-button {
+  width: 24px; /* Increase the width */
+  height: 24px; /* Increase the height */
+  font-size: 18px; /* Increase the font size for the close icon */
+  color: #fff;
+}
+
+.custom-popup .mapboxgl-popup-close-button:before {
+  font-size: 24px; /* Increase the size of the 'x' icon */
+  color: white; /* Set the color of the 'x' icon */
+}
+
+.popup-industry-text {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  color: #ccc; /* Light gray for descriptions */
+}
+
+.popup-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.popup-industry-analysis {
+  font-size: 0.8rem;
+  line-height: 1.2;
+  color: #ccc;
+  text-align: left;
+  margin-bottom: 1.3em;
+}
+
+.popup-pagination-count {
+  margin: 0 .5em;
+}
+
+/* .arrow-icon {
+  color: white;
+  width: 24px; 
+  height: 24px; 
+} */

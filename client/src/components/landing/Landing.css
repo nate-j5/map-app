@@ -1,0 +1,133 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Dark Theme Colors */
+  :root {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --accent-color: #bb86fc;
+    --button-bg: #03dac6;
+    --button-hover-bg: #018786;
+  }
+  
+  /* Landing Page Container */
+  .landing-container {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Header */
+  .landing-header {
+    text-align: center;
+    margin-top: 10vh;
+  }
+  
+  .landing-header h1 {
+    font-size: 3rem;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .landing-header p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .cta-button {
+    background-color: var(--button-bg);
+    color: var(--bg-color);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background-color: var(--button-hover-bg);
+  }
+  
+  /* Features Section */
+  .features-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    animation: fadeIn 2.5s ease-in-out;
+  }
+  
+  .feature {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .feature h2 {
+    font-size: 1.8rem;
+    color: var(--accent-color);
+    margin-bottom: 15px;
+  }
+  
+  .feature p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  /* Footer */
+  .landing-footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Video background */
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  /* Ensure content appears above the video */
+  .landing-container {
+    position: relative;
+    z-index: 1;
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional fallback background */
+  }
+  
+  /* Rest of your styles remain the same */
+  

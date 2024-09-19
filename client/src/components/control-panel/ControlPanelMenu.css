@@ -1,0 +1,116 @@
+.control-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  bottom: 15em;
+  right: 3em;
+  background-color: #2B2A33; 
+  background-color: none;
+  padding: 16px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);  */
+  height: 43em;
+  width: 300px;
+  z-index: 1;
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+} 
+
+.control-panel__title {
+  font-size: 1.5em;
+  color: #f5f5f5;
+  margin-bottom: 0.5em;
+}
+
+.control-panel___description {
+  font-size: 0.95em;
+  color: #ccc;
+  margin-bottom: 1.5em;
+  text-align: left;
+}
+
+.control-panel.collapsed {
+  transform: translate(100%);
+  opacity: 0;
+}
+
+.control-panel.expanded {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.toggle-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toggle-btn {
+  top: 10px;
+  left: -80px; /* Smaller and closer to the control panel */
+  background-color: #444; /* More discreet dark gray */
+  color: #fff;
+  border: none;
+  border-radius: 50px; /* Rounded for subtle look */
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  margin-bottom: 1em;
+  transition: background-color 0.2s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+.toggle-btn:hover {
+  background-color: #555; /* Slightly lighter on hover */
+  transform: scale(1.05); /* Small scaling effect */
+}
+
+
+
+.control-panel h6 {
+  margin-bottom: 12px;
+  font-size: 10px;
+  color: #f5f5f5; /* Light text for dark background */
+}
+
+.control-panel label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ddd; /* Light text for labels */
+}
+
+.control-panel input,
+.control-panel select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #555; /* Darker border to match background */
+  border-radius: 4px;
+  background-color: #3e3d48; /* Darker input background */
+  color: #f5f5f5; /* Light text */
+  font-size: 14px;
+}
+
+.control-panel input::placeholder {
+  color: #aaa; /* Subtle placeholder color */
+}
+
+.submitButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: .5em;
+}
+
+.submitButton button:hover {
+  background-color: #0056b3;
+}
+
+

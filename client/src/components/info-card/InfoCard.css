@@ -1,0 +1,67 @@
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 4em;
+    right: 3em;
+    background-color: #2B2A33;
+    padding: 16px;
+    border-radius: 8px;
+    height: 30em;
+    width: 300px;
+    z-index: 1;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .info-card.collapsed {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  
+  .info-card.expanded {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  .info-card label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ddd;
+  }
+  
+  .info-card input,
+  .info-card select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #3e3d48;
+    color: #f5f5f5;
+    font-size: 14px;
+  }
+  
+  .info-card input::placeholder {
+    color: #aaa;
+  }
+  
+  .info-card__submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 0.5em;
+  }
+  
+  .info-card__submit-button:hover {
+    background-color: #0056b3;
+  }
+  

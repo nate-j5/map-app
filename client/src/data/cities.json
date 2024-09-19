@@ -1,0 +1,154 @@
+[
+  {
+    "city": "Asheville",
+    "population": "94,589",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Asheville_skyline.jpg/240px-Asheville_skyline.jpg",
+    "state": "North Carolina",
+    "latitude": 35.5951,
+    "longitude": -82.5515
+  },
+  {
+    "city": "Austin",
+    "population": "790,390",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Austin2012-12-01.JPG/240px-Austin2012-12-01.JPG",
+    "state": "Texas",
+    "latitude": 30.3072,
+    "longitude": -97.756
+  },
+  {
+    "city": "Bentonville",
+    "population": "54,164",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Bentonville_Town_Square.jpg/240px-Bentonville_Town_Square.jpg",
+    "state": "Arkansas",
+    "latitude": 36.3729,
+    "longitude": -94.2088
+  },
+  {
+    "city": "Bozeman",
+    "population": "56,250",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Downtown_Bozeman_2009.jpg/240px-Downtown_Bozeman_2009.jpg",
+    "state": "Montana",
+    "latitude": 45.676,
+    "longitude": -111.0429
+  },
+  {
+    "city": "Chicago",
+    "population": "2,695,598",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/85/2008-06-10_3000x1000_chicago_skyline.jpg/240px-2008-06-10_3000x1000_chicago_skyline.jpg",
+    "state": "Illinois",
+    "latitude": 41.8376,
+    "longitude": -87.6818
+  },
+  {
+    "city": "Denver",
+    "population": "600,158",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/DenverCP.JPG/240px-DenverCP.JPG",
+    "state": "Colorado",
+    "latitude": 39.7618,
+    "longitude": -104.8806
+  },
+  {
+    "city": "Houston",
+    "population": "2,100,263",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Aerial_views_of_the_Houston%2C_Texas%2C_28005u.jpg/240px-Aerial_views_of_the_Houston%2C_Texas%2C_28005u.jpg",
+    "state": "Texas",
+    "latitude": 29.7805,
+    "longitude": -95.3863
+  },
+  {
+    "city": "Iowa City",
+    "population": "74,828",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Iowa_City_Skyline.jpg/240px-Iowa_City_Skyline.jpg",
+    "state": "Iowa",
+    "latitude": 41.6611,
+    "longitude": -91.5302
+  },
+  {
+    "city": "Jacksonville",
+    "population": "821,784",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Skyline_of_Jacksonville_FL%2C_South_view_20160706_1.jpg/240px-Skyline_of_Jacksonville_FL%2C_South_view_20160706_1.jpg",
+    "state": "Florida",
+    "latitude": 30.337,
+    "longitude": -81.6613
+  },
+  {
+    "city": "Las Vegas",
+    "population": "646,790",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Las_Vegas_Strip_2019.jpg/240px-Las_Vegas_Strip_2019.jpg",
+    "state": "Nevada",
+    "latitude": 36.1699,
+    "longitude": -115.1398
+  },
+  {
+    "city": "Lexington",
+    "population": "321,793",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Downtown_Lexington_Aerial_2013.jpg/240px-Downtown_Lexington_Aerial_2013.jpg",
+    "state": "Kentucky",
+    "latitude": 38.0406,
+    "longitude": -84.5037
+  },
+  {
+    "city": "Los Angeles",
+    "population": "3,792,621",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/57/LA_Skyline_Mountains2.jpg/240px-LA_Skyline_Mountains2.jpg",
+    "state": "California",
+    "latitude": 34.0194,
+    "longitude": -118.4108
+  },
+  {
+    "city": "Miami",
+    "population": "442,241",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Miami_skyline_20171104.jpg/240px-Miami_skyline_20171104.jpg",
+    "state": "Florida",
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  },
+  {
+    "city": "Minneapolis",
+    "population": "429,606",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Minneapolis_Minnesota_downtown.jpg/240px-Minneapolis_Minnesota_downtown.jpg",
+    "state": "Minnesota",
+    "latitude": 44.9778,
+    "longitude": -93.265
+  },
+  {
+    "city": "New York",
+    "population": "8,175,133",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Above_Gotham.jpg/240px-Above_Gotham.jpg",
+    "state": "New York",
+    "latitude": 40.6643,
+    "longitude": -73.9385
+  },
+  {
+    "city": "Phoenix",
+    "population": "1,445,632",
+    "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Downtown_Phoenix_Aerial_Looking_Northeast.jpg/207px-Downtown_Phoenix_Aerial_Looking_Northeast.jpg",
+    "state": "Arizona",
+    "latitude": 33.5722,
+    "longitude": -112.088
+  },
+  {
+    "city": "Portland",
+    "population": "652,503",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Portland_and_Mount_Hood.jpg/240px-Portland_and_Mount_Hood.jpg",
+    "state": "Oregon",
+    "latitude": 45.5051,
+    "longitude": -122.675
+  },
+  {
+    "city": "Salt Lake City",
+    "population": "200,133",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Salt_Lake_City_downtown_2018.jpg/240px-Salt_Lake_City_downtown_2018.jpg",
+    "state": "Utah",
+    "latitude": 40.7608,
+    "longitude": -111.891
+  },
+  {
+    "city": "Santa Fe",
+    "population": "88,193",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Santa_Fe_Plaza_in_Santa_Fe_New_Mexico.jpg/240px-Santa_Fe_Plaza_in_Santa_Fe_New_Mexico.jpg",
+    "state": "New Mexico",
+    "latitude": 35.687,
+    "longitude": -105.9378
+  }
+]
