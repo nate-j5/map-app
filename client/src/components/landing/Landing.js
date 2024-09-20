@@ -7,10 +7,18 @@ const Landing = () => {
     <>
       <div className="landing-container">
         <div className="landing-container-1">
-          <video autoPlay loop muted className="background-video">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            poster="path_to_image.jpg"
+            className="background-video"
+          >
             <source src={backgroundVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+
           <header className="landing-header">
             <h1 className="landing-title">
               Coming Soon: A Fresh New Experience

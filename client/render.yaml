@@ -1,0 +1,7 @@
+staticSites:
+  - name: client 
+    buildCommand: npm run build
+    publishPath: build
+    rewrites:
+      - source: "/*"
+        destination: /index.html
